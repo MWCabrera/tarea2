@@ -6,38 +6,101 @@
     margin: 20px;
 }
 #caja1{
-    width: 200px;
-    height: 200px;
+    /*Cara*/
+    width: 400px;
+    height: 400px;
     background-color: red;
-    border-radius: 100px;
-    display: inline-block;
-    position: relative;
-    left: 150px;
-    top: 150px;
-}
-#caja2{
-    width: 200px;
-    height: 100px;
-    background-color: yellow;
-    margin: 20px;
+    border-radius: 100%;
     display: inline-block;
     position: fixed;
-    top: 10px;
+    left: 200px;
+    top: 200px;
+    transform: rotate(180deg);
 }
-#caja3{
-    width: 300px;
-    height: 300px;
-    background-color: green;
+#sombrero{
+    /*Cara*/
+    width: 400px;
+    height: 50px;
+    background-color: blue;
     display: inline-block;
-    position: sticky;
-    top: 300px;
+    position: fixed;
+    left: 200px;
+    top: 150px;
+    /*transform: rotate(180deg);*/
 }
-#caja31{
+#sombrero1{
+    /*Cara*/
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: fixed;
+    left: 300px;
+    top: 50px;
+    /*transform: rotate(180deg);*/
+}
+#caja12{
+    /*Cara2*/
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+
+}
+#caja112{
+    /*Cara2*/
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+}
+#cajanariz{
+    /*Cara2*/
     width: 100px;
     height: 100px;
-    background-color: pink;
     margin: auto;
+    background-color: blue;
+    border-radius: 100%;
     position: relative;
-    top: 100px;
-    transform: rotate(45deg);
+    top: 30%;
+}
+#ojo1{
+    width: 70px;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    left: 25%;
+}
+#ojo2{
+    width: 70px;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    right:295%;
+}
+#pupila1{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+}
+#pupila2{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 100%;
 }
